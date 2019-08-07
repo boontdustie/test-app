@@ -3,7 +3,11 @@ branch-defaults:
     environment: null
     group_suffix: null
   master:
-    environment: null
+    environment: test-app-env
+environment-defaults:
+  test-app-env:
+    branch: master
+    repository: origin
 global:
   application_name: test-app
   branch: master
