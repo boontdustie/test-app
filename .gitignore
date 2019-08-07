@@ -7,6 +7,8 @@
 # Ignore bundler config
 /.bundle
 
+/.elasticbeanstalk
+
 # Ignore gem installed via `bundle install --path vendor`
 /vendor/ruby
 /vendor/cache
