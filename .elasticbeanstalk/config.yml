@@ -6,12 +6,12 @@ branch-defaults:
     environment: test-app-env
 environment-defaults:
   test-app-env:
-    branch: master
-    repository: origin
+    branch: null
+    repository: null
 global:
   application_name: test-app
   branch: master
-  default_ec2_keyname: aws-eb
+  default_ec2_keyname: aws-eb2
   default_platform: Ruby 2.5 (Puma)
   default_region: us-west-2
   include_git_submodules: true
