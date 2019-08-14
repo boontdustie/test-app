@@ -5,5 +5,5 @@ test:
   host: 'localhost'
   port: '6379'
 production:
-  host: 'test-app-redis.wfnqvf.ng.0001.usw2.cache.amazonaws.com:6379'
+  host: 'test-app-redis.wfnqvf.ng.0001.usw2.cache.amazonaws.com'
   port: '6379'
