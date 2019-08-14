@@ -1,0 +1,9 @@
+# Configuration file for Sidekiq.
+# Options here can still be overridden by cmd line args.
+# bundle exec sidekiq -C config/sidekiq.yml
+
+---
+:verbose: false
+:concurrency: 25
+:queues:
+  - [default, 1]
